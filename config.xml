@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>GeoApp</name>
+    <name>BrujAcel</name>
 
     <description>
-        Practica para Geolocalizacion
+        Practica para Brujula y Acelerometro
     </description>
 
     <author href="https://orlando.igitsoft.com" email="info@igitsoft.com">
