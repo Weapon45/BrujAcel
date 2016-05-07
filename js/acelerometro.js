@@ -8,7 +8,9 @@ var ac = {
 	},
 	detener: function(){
 		if(ac.watchID != null){
-			navigator.accelerometer.ClearWatch(ac.watchID);
+			navigator.accelerometer.clearWatch(ac.watchID);
+			ac.watchID = null;
+			$('#acelerometro h2').html('Detenido');
 		}		
 	},
 	error: function(err){
